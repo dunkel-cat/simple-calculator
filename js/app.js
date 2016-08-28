@@ -61,9 +61,11 @@ switch (menu)
     case "division":
     case"DIVISION":
     case"división":
-    var num1 = parseInt ( prompt ("enter a number")); 
-    var num2 = parseInt ( prompt ("enter a number")); 
+    var num1 = parseFloat( prompt ("enter a number")); 
+    var num2 = parseFloat ( prompt ("enter a number")); 
     division (num1,num2 );
     break;
-  
+    
+    default:
+      alert( "enter a valid option, monse!")
   }
