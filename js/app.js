@@ -28,9 +28,31 @@ function division (numero1 , numero2)
   var resultado= numero1 / numero2;
   return document.write ( "the division result is :" + resultado);
 }
-
-
-var menu = prompt("Enter an option: addition, substraction, multiplication or division")
+function modulo (numero1 , numero2)
+{
+  var numero1 = numero1;
+  var numero2 = numero2;
+  var resultado= numero1%numero2;
+		
+  return document.write ( "Modulo result is :" + resultado);
+}
+function comparison (numero1 , numero2)
+{
+  var numero1 = numero1;
+  var numero2 = numero2;
+  var resultado= numero1>numero2;
+return document.write ( numero1 + " is greater than " + numero2);
+}
+function comparison  (numero1 , numero2)
+{
+  var numero1 = numero1;
+  var numero2 = numero2;
+  var resultado= numero1<numero2;
+return document.write ( numero1 + " is less than " + numero2);
+}
+do
+  {
+var menu = prompt("Enter an option: addition, substraction, multiplication division, modulo or comparison")
                 
 switch (menu)
   {
@@ -66,6 +88,25 @@ switch (menu)
     division (num1,num2 );
     break;
     
+    case"modulo":
+    case"MODULO":
+    case"modulo":
+    var num1 = parseFloat( prompt ("enter a number")); 
+    var num2 = parseFloat ( prompt ("enter a number")); 
+    modulo (num1,num2 );
+    break;
+    
+     case"comparison":
+    case"COMPARISON ":
+    case"COMPARACIÓN ":
+    var num1 = parseFloat( prompt ("enter a number")); 
+    var num2 = parseFloat ( prompt ("enter a number")); 
+    comparison (num1,num2 );
+    break;
+      
+    
     default:
       alert( "enter a valid option, monse!")
   }
+    var repeat = prompt ("¿quieres repetir si o no?"); 
+    }while (repeat == "si");
