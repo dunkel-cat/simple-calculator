@@ -13,3 +13,6 @@ Kiri is a very lazy cat and spends a lot of money on cat treats. She can never g
 5. Si el usuario quiere realizar una operación más, ingresar el número de la opción que desee.
 6. De lo contrario ingresar el número de la opción salir.
 7. Fin.
+
+<img src="http://1.1m.yt/Ef0rsmR.jpg" width="300">
+
